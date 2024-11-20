@@ -1,0 +1,5 @@
+compas<3,>=2.3
+compas_fab@ git+https://github.com/compas-dev/compas_fab.git@wip_process
+compas_robots@ git+https://github.com/compas-dev/compas_robots@a40673d
+compas_rrc
+pybullet

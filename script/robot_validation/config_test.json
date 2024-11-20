@@ -1,0 +1,2978 @@
+[
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "abb102a8-cbe5-483e-9ea1-0e1cbd1a6248", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "437a70c4-cc40-4e05-bbe0-48f2c8ddf1fe", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "9c2debaf-2d4c-4815-a28f-2f3608f76e63", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "4f8a5aaf-767d-4451-851c-39ccbe77b4db", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "e9f0c0d2-07fa-468c-a008-78cd92c019c8", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "826c2ea3-bffb-4bf5-b197-de81e8149a4a", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "d01eb0d3-207b-4789-9c93-cf539de8fa8d", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "e895614a-77ae-4718-be9a-36d9eb7d3769", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "9faf1e5b-2f01-4e8f-9c94-99bb263fc78e", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "1f7c5da4-055e-450a-8ae0-98c7aa760a85", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "fa64db6b-90b8-48d9-8c11-efc98b90a94e", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "2683266c-4f89-4ba0-8d9d-c39a9de031b9", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "8dba8e9f-40d4-4761-a39e-9e2b19409b6d", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "b30139f5-a3ee-496c-99d0-6335fb845a3e", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "871b979f-94c6-4d0c-822f-0c622f1ceb13", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "dcf474f1-930a-42b2-97bf-7a13e912d071", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "e1e74e12-f49e-40ae-a776-ee15dce9f345", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "600005f8-5172-4196-8458-0188a77aed7c", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "71b25f6a-39ad-4e09-ac31-4282532653cb", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "943f03bc-45f8-4b9c-a03f-d40ad1f16eb8", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "a940ba98-fb7e-49fa-90c3-09334a2e0f6e", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "09b37c7a-285f-4dbf-a19e-d318b9692a1b", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "ec1c7d07-57a9-4cf7-98a3-488cc7e83b7e", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "4e4efd43-a0e2-47af-bae7-c1376eafde2b", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "0379ae69-dbc6-476f-8a0b-7235236bee95", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "f31c5397-55c6-4a50-bce5-21ee23034f71", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "30acb41f-648a-45f0-8d08-6b54bdb6876a", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "8f5820fe-bf64-4610-8b1f-e2c9225848f5", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "2ca8d162-a5a2-4724-953f-6b5740876b50", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "6f748587-9102-4b4c-b6d5-a3eef275ac57", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "3dabe11b-b365-4fd0-9259-3dbc7d5e629a", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "0d843a3d-a564-4cef-8ed1-38bfcfd0de7e", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "a1ad89ed-5c7f-4bda-bc3a-3e7681b845b2", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "60832723-25ec-49ce-acff-bd5011dfb6e4", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "95232a16-4994-4d96-b7a1-89cb620b0460", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "77fa09cb-2baf-437a-aa65-04175ea35c9e", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "f61a78b6-538e-4b34-af34-7cd17ceeaaa5", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "7ca13ce8-9b88-4f19-b914-19a3da3b6438", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "c45a0e2b-2902-4843-bdc0-c60be204df24", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "578c109f-34c2-4110-951a-91af522730b1", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "99abc18d-df83-4b27-a986-f3b0c9402f63", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "b8d7fbbf-8a7c-44a0-a9d3-192923df1ed0", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "4d353061-2378-42cc-bae7-16da0f0b5f4a", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "782a01a8-b239-49b1-ba66-ac50fdc6a471", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "e4939046-d43e-4102-813d-323c5c8c2419", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "8c6534f5-8aaf-48f8-a8cb-645353c9a610", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "655d18ab-c7e6-40ae-b58f-32cf208cbb60", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                -0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "a33723e7-f19d-47d4-ac28-056ebb9f336b", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "210052db-4a1c-48cd-8c7c-212172e3d839", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "f945b3b4-cb21-46a6-84aa-c123f074da0b", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "2167ae6a-f3a6-4133-950e-11cdd41c404d", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "9c26bf3b-e96a-48a2-b34c-18748089010f", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "58d2d2f1-3b65-4c4d-ace2-08b038c04387", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "cfe5006b-c20a-475b-b85e-979fbc5da9ee", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "d0ed84e2-dcc9-4118-8e05-697ecbdb5488", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "d81da88e-a1eb-4290-a36f-6781bedb9de2", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "05ea1e00-cc45-4d23-811e-27facb508cbc", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "3a33759a-8d00-4348-b23a-461c01e4e2c3", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "7bf73f42-49f8-4517-a46f-30940b78e07d", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "2573bdab-c1d7-4fe7-80c2-0828e23b7cae", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "109e7d05-c5c7-4eb8-9ac1-b737dc442686", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "ae8a640d-af7a-458c-9ea5-a0ba56667654", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "25375d6d-1fcb-4169-89bb-488d2dd114d1", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "c67d4ce5-edae-49b4-82b8-34df175aefa8", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "d6b0a404-e3ba-44f3-bf75-d9a935f1a0f5", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "528bd480-98f8-42d1-ae2e-562737721dfe", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "4995f349-e1a4-4bd8-9d99-6ceb17cdeb6c", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "e9f54810-6965-40ca-ae3e-2245fef32ce1", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "937343d6-89ad-4715-a21e-e41125224c08", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "08ecd9b7-ad5a-4113-aa9e-a9fe77bd6747", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "06c3241d-922c-46a8-859e-1d2c9cb214cb", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                -0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "eddb71e5-fd63-4e20-9375-338fc1c27bfc", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "2409754d-5de4-4919-9bea-0815192c81fc", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "fdb69326-afdb-47d6-acfe-e6530b7ba5ec", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "457eab93-b23d-4d23-bee8-7cfecd7703c0", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "9b4493db-3f32-465b-a6d7-c50ac24f6a1b", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "9dbbf665-4876-4810-9fad-af0e0d4322e0", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "2a5e0da7-f2c8-4d6e-9f6a-5ad81ffe68ea", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "03ca08d8-a700-4001-97ff-e82a5ea26876", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "212e6951-1864-472b-8299-a173ebfa1516", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "01f78050-b028-426a-9312-26937cade741", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "34727621-6baa-4880-a05f-59c4204022b7", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "9c35692d-a5fa-435b-94bf-a6cf565e47cc", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                -0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "0f5d38e5-d8c3-4803-a4f9-173aea5cae62", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "ec2aee23-8b3f-4c5f-9fda-4d0d5a4da422", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "a0923a74-a852-4b51-a0a2-abd709b6aea6", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "3d241027-f466-439a-a57e-fd3dbe7a6443", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "6af6f3b5-357a-40ff-9cc2-b18c983b86b7", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "045f79c8-b6ff-4ba5-8e51-8035ac1dea00", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                -1.5707963267948966, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "cc76246e-6095-47d8-8847-529042cd81d4", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "a856cb55-ef11-4db0-8503-3a881ba21765", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "0b783bf8-4ef4-4965-867e-ae3f2507f6af", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                -0.87266462599716477, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "8c9eb6d2-2266-4966-b1df-d14a411076ca", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                -0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "307e38e3-d825-4fb9-92d9-1432405cd900", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "021fd985-5fca-4d17-9d82-ccb55aab055f", 
+        "name": "Configuration"
+    }, 
+    {
+        "data": {
+            "joint_names": [
+                "joint_1", 
+                "joint_2", 
+                "joint_3", 
+                "joint_4", 
+                "joint_5", 
+                "joint_6"
+            ], 
+            "joint_types": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "joint_values": [
+                0.69813170079773179, 
+                0.69813170079773179, 
+                0.43633231299858238, 
+                0.87266462599716477, 
+                0.78539816339744828, 
+                0.3490658503988659
+            ]
+        }, 
+        "dtype": "compas_robots/Configuration", 
+        "guid": "971e1b7a-b518-4d8b-96ce-ba4ab37c9c25", 
+        "name": "Configuration"
+    }
+]

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: nonplanar_printing_2
+Version: 0.1.0
+Summary: Planning code for non-planar 3D printing
+Author: Victor Leung
+Requires-Dist: compas<3,>=2.3
+Requires-Dist: compas_fab@ git+https://github.com/compas-dev/compas_fab.git@wip_process
+Requires-Dist: compas_robots@ git+https://github.com/compas-dev/compas_robots@a40673d
+Requires-Dist: compas_rrc
+Requires-Dist: pybullet

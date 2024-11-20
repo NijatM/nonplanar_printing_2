@@ -1,0 +1,8 @@
+# NOTE: Remember to also update the .github/workflows/ironpython.yml file
+compas >= 2.3, < 3
+# Pinned compas_fab to the latest WIP branch with fabrication process
+compas_fab @ git+https://github.com/compas-dev/compas_fab.git@wip_process
+# Pinned compas_robots to the latest commit (need to update this after compas_robots #25 merged)
+compas_robots @ git+https://github.com/compas-dev/compas_robots@a40673d
+compas_rrc
+pybullet
