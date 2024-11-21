@@ -1,0 +1,62 @@
+{
+    "data": {
+        "disabled_collisions": [
+            [
+                "base_link", 
+                "link_1"
+            ], 
+            [
+                "link_1", 
+                "link_2"
+            ], 
+            [
+                "link_2", 
+                "link_3"
+            ], 
+            [
+                "link_3", 
+                "link_4"
+            ], 
+            [
+                "link_4", 
+                "link_5"
+            ], 
+            [
+                "link_5", 
+                "link_6"
+            ], 
+            [
+                "link_6", 
+                "tool0"
+            ]
+        ], 
+        "end_effectors": [], 
+        "group_states": {}, 
+        "groups": {
+            "manipulator": {
+                "joints": [
+                    "joint_1", 
+                    "joint_2", 
+                    "joint_3", 
+                    "joint_4", 
+                    "joint_5", 
+                    "joint_6", 
+                    "joint_6_tool0"
+                ], 
+                "links": [
+                    "link_1", 
+                    "link_2", 
+                    "link_3", 
+                    "link_4", 
+                    "link_5", 
+                    "link_6", 
+                    "tool0"
+                ]
+            }
+        }, 
+        "main_group_name": "manipulator", 
+        "passive_joints": []
+    }, 
+    "dtype": "compas_fab.robots/RobotSemantics", 
+    "guid": "8efaa5b8-5d71-4ec4-a9f3-dc5a00c7ccd4"
+}

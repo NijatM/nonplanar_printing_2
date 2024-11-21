@@ -4,7 +4,7 @@ Codebase for planning non-planar robotic 3D printing trajectories
 Use conda to create an environment
 ```bash
 conda update conda
-conda create --name npp2 "python==3.9"
+conda create --name npp2 python=3.9
 ```
 
 
@@ -22,28 +22,37 @@ Run this the following in terminal from the root folder of this repo.
 Install using [editable mode](https://pip.pypa.io/en/stable/reference/pip_install/#install-editable).
 
 ```bash
-# install prebuilt pybullet from conda
+# (optional) install prebuilt pybullet from conda
 conda install -c conda-forge pybullet
 
-# Install submodules from local folders (Do not use the latest versions!)
+# Install this repository `npp2` from source (If there are errors see next command!)
 pip install -e .
 
-# Install this repository `npp` from source (If there are errors see next command!)
-pip install -e .
+# Run the following code add the python library paths to Rhino / Grasshopper (version 7 or 8)
+python -m compas_rhino.install -v 7.0 -p compas compas_fab compas_ghpython compas_rhino npp2
+python -m compas_rhino.install -v 8.0 -p compas compas_fab compas_ghpython compas_rhino npp2
 
-# If the previous command resulted in error related to building ikfast_pybind or ikfast, try the following:
-pip install -e . --no-deps
-
-# Run the following code add the python library paths to Rhino / Grasshopper
-python -m compas_rhino.install -p compas compas_fab compas_ghpython compas_rhino npp
-
+# Test out the installation
+python -m npp2
 ```
 
+You should see something like this
+
+```
+pybullet build time: Sep 25 2024 13:35:52
+
+Yay! NPP2 is installed correctly!
+
+COMPAS FAB: 1.0.2
+COMPAS: 2.6.1
+Python: 3.9.0 (CPython)
+```
 ## General Setup Steps
 
 1. **Setup robot definitions (default location is `.\robot` folder)**
 
-   Robots can be defined as URDF packages that consist of URDF, SRDF, collision meshes and visual meshes.
+   Robots should be defined as serialized RobotModel and RobotSemantics objects.
+   It can also be defined as URDF packages that consist of URDF, SRDF, collision meshes and visual meshes.
 
 2. **Setup tool definitions (default location is `.\tool` folder)**
 
