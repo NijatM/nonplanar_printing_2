@@ -29,8 +29,8 @@ conda install -c conda-forge pybullet
 pip install -e .
 
 # Run the following code add the python library paths to Rhino / Grasshopper (version 7 or 8)
-python -m compas_rhino.install -v 7.0 -p compas compas_fab compas_ghpython compas_rhino npp2
-python -m compas_rhino.install -v 8.0 -p compas compas_fab compas_ghpython compas_rhino npp2
+python -m compas_rhino.install -v 7.0 -p compas compas_fab compas_ghpython compas_rhino compas_robots npp2
+python -m compas_rhino.install -v 8.0 -p compas compas_fab compas_ghpython compas_rhino compas_robots npp2
 
 # Test out the installation
 python -m npp2

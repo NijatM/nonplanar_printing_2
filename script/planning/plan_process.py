@@ -29,10 +29,10 @@ robot_cell_filename = os.path.join(
     get_root_folder_path(), "design", "241121_victor", "gofa_10_cell_120box.rc"
 )
 process_filename = os.path.join(
-    get_root_folder_path(), "design", "241121_victor", "path_1.process"
+    get_root_folder_path(), "design", "241121_victor", "path_0.process"
 )
 result_filename = os.path.join(
-    get_root_folder_path(), "design", "241121_victor", "path_1.result"
+    get_root_folder_path(), "design", "241121_victor", "path_0.result"
 )
 # Remove robot and tool visual meshes for better performance (default: True)
 remove_visuals = True
@@ -68,40 +68,38 @@ def run():
         planner.set_robot_cell(robot_cell, robot_cell_state)
         # input("Press Enter to continue...")
 
-        count_total = 0
-        count_no_collision = 0
-        count_ik_success = 0
         start_state = process.start_state
 
         # Check if all the movement has IK solutions.
         movements = process.get_robotic_movements()
-        for i, movement in enumerate(movements):
-            target = movement.target  # type: PointAxisWaypoints
-            last_point, last_z = target.target_points_and_axes[-1]
-            target = PointAxisTarget(last_point, last_z, target.target_mode)
-            try:
-                config = planner.inverse_kinematics(
-                    target, start_state, options={"check_collision": True}
-                )
-                start_state.robot_configuration.values = config.values
-                print(
-                    "IK Check OK Movement {}, {} of {}".format(
-                        i, movement.tag, len(movements)
-                    )
-                )
-            except InverseKinematicsError as e:
-                print("IK Error at movement {}: {}".format(i, e.message))
-                # Visualize the target without CC
-                config = planner.inverse_kinematics(
-                    target, start_state, options={"check_collision": False}
-                )
-                try:
-                    planner.check_collision(start_state)
-                except Exception as e:
-                    print(e.message)
-                    input("Press Enter to continue...")
+        # for i, movement in enumerate(movements):
+        #     target = movement.target  # type: PointAxisWaypoints
+        #     last_point, last_z = target.target_points_and_axes[-1]
+        #     target = PointAxisTarget(last_point, last_z, target.target_mode)
+        #     try:
+        #         config = planner.inverse_kinematics(
+        #             target, start_state, options={"check_collision": True}
+        #         )
+        #         start_state.robot_configuration.values = config.values
+        #         print(
+        #             "IK Check OK Movement {}, {} of {}".format(
+        #                 i, movement.tag, len(movements)
+        #             )
+        #         )
+        #     except InverseKinematicsError as e:
+        #         print("IK Error at movement {}: {}".format(i, e.message))
+        #         # Visualize the target without CC
+        #         config = planner.inverse_kinematics(
+        #             target, start_state, options={"check_collision": False}
+        #         )
+        #         try:
+        #             planner.check_collision(start_state)
+        #         except Exception as e:
+        #             print(e.message)
+        #             input("Press Enter to continue...")
 
-        for i, movement in enumerate(process.get_robotic_movements()):
+        # Plan Movements
+        for i, movement in enumerate(movements):
             # Plan Movement
             print("Planning Movement {}: {}".format(i, movement.tag))
             try:
@@ -116,18 +114,32 @@ def run():
             except MPNoIKSolutionError as e:
                 print("   Plan = Failed (No IK Solution)")
                 print("   Error: {}".format(e.message))
-                t = e.partial_trajectory  # type: JointTrajectory
+                partial_trajectory = e.partial_trajectory  # type: JointTrajectory
                 # Visualize last point
-                start_state.robot_configuration.values = t.points[-1].values
-                planner.set_robot_cell_state(start_state)
-                input("Press Enter to continue...")
+                if partial_trajectory.points:
+                    last_config = partial_trajectory.points[-1]
+                    start_state.robot_configuration.joint_values = (
+                        last_config.joint_values
+                    )
+                    planner.set_robot_cell_state(start_state)
+                    input(
+                        "IK Failed Showing last successful Point. Press Enter to continue..."
+                    )
+                else:
+                    input(
+                        "IK Failed at the beginning of the movement. Press Enter to continue..."
+                    )
+                movement.trajectory = partial_trajectory
+                break  # Stop planning process
             movement.trajectory = trajectory
+            print("   Trajectory Points: {}".format(len(trajectory.points)))
             # Update start state
-            start_state.robot_configuration.values = t.points[-1].values
+            start_state.robot_configuration.joint_values = trajectory.points[
+                -1
+            ].joint_values
 
     # Save the process
-    with open(result_filename, "w") as f:
-        json_dump(process, f)
+    json_dump(process, result_filename)
 
 
 run()
