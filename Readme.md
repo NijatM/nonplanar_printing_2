@@ -25,7 +25,7 @@ Install using [editable mode](https://pip.pypa.io/en/stable/reference/pip_instal
 # (optional) install prebuilt pybullet from conda
 conda install -c conda-forge pybullet
 
-# Install this repository `npp2` from source (If there are errors see next command!)
+# Install this repository `npp2` from source
 pip install -e .
 
 # Run the following code add the python library paths to Rhino / Grasshopper (version 7 or 8)
