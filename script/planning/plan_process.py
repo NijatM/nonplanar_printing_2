@@ -26,13 +26,13 @@ from utils import remove_robot_model_visuals
 
 # Define file paths
 robot_cell_filename = os.path.join(
-    get_root_folder_path(), "design", "241121_victor", "gofa_10_cell_120box.rc"
+    get_root_folder_path(), "design", "240103_Nijat", "gofa_10_cell_120box.rc"
 )
 process_filename = os.path.join(
-    get_root_folder_path(), "design", "241121_victor", "path_0.process"
+    get_root_folder_path(), "design", "240103_Nijat", "240103_LilliTestV1.process"
 )
 result_filename = os.path.join(
-    get_root_folder_path(), "design", "241121_victor", "path_0.result"
+    get_root_folder_path(), "design", "240103_Nijat", "240103_LilliTestV1.result"
 )
 # Remove robot and tool visual meshes for better performance (default: True)
 remove_visuals = True

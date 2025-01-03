@@ -1,0 +1,3645 @@
+{
+  "dtype": "npp2.tasks/PrintingProcess",
+  "data": {
+    "start_state": {
+      "dtype": "compas_fab.robots/RobotCellState",
+      "data": {
+        "robot_base_frame": {
+          "dtype": "compas.geometry/Frame",
+          "data": {
+            "point": [0.0, 0.0, 0.0],
+            "xaxis": [1.0, 0.0, 0.0],
+            "yaxis": [0.0, 1.0, 0.0]
+          },
+          "guid": "37f6acd3-4750-4435-8488-5484e6270e9a"
+        },
+        "robot_configuration": {
+          "dtype": "compas_robots/Configuration",
+          "data": {
+            "joint_values": [
+              0.06430908919384733, 0.3261720242797937, 0.35028495731958664,
+              0.11044743655886873, -0.679459495810529, -0.08604279501200736
+            ],
+            "joint_types": [0, 0, 0, 0, 0, 0],
+            "joint_names": [
+              "joint_1",
+              "joint_2",
+              "joint_3",
+              "joint_4",
+              "joint_5",
+              "joint_6"
+            ]
+          },
+          "guid": "d05118f6-9ad8-491f-a1ff-0546f8e1b5d1"
+        },
+        "tool_states": {
+          "lilli902": {
+            "dtype": "compas_fab.robots/ToolState",
+            "data": {
+              "frame": {
+                "dtype": "compas.geometry/Frame",
+                "data": {
+                  "point": [0.0, 0.0, 0.0],
+                  "xaxis": [1.0, 0.0, 0.0],
+                  "yaxis": [0.0, 1.0, 0.0]
+                },
+                "guid": "bf6bd36f-bb1a-482e-ba82-03fd5bc61369"
+              },
+              "attached_to_group": "manipulator",
+              "touch_links": ["link_6"],
+              "attachment_frame": {
+                "dtype": "compas.geometry/Frame",
+                "data": {
+                  "point": [0.0, 0.0, 0.0],
+                  "xaxis": [1.0, 0.0, 0.0],
+                  "yaxis": [0.0, 1.0, 0.0]
+                },
+                "guid": "7ddc72ad-4bd1-4c41-98d4-376246b69e85"
+              },
+              "configuration": null,
+              "is_hidden": false
+            },
+            "guid": "fd6ef980-382e-46d5-a5b5-b5d171740207"
+          }
+        },
+        "rigid_body_states": {
+          "box_left": {
+            "dtype": "compas_fab.robots/RigidBodyState",
+            "data": {
+              "frame": {
+                "dtype": "compas.geometry/Frame",
+                "data": {
+                  "point": [0.0, 0.0, 0.0],
+                  "xaxis": [1.0, 0.0, 0.0],
+                  "yaxis": [0.0, 1.0, 0.0]
+                },
+                "guid": "814a2f5e-6cf8-4d84-910c-b7f9db880ec1"
+              },
+              "attached_to_link": null,
+              "attached_to_tool": null,
+              "touch_links": [],
+              "touch_bodies": [],
+              "attachment_frame": null,
+              "is_hidden": false
+            },
+            "guid": "9a8b1fb9-782d-4946-ab40-3aeac0d50b2d"
+          },
+          "box_bottom": {
+            "dtype": "compas_fab.robots/RigidBodyState",
+            "data": {
+              "frame": {
+                "dtype": "compas.geometry/Frame",
+                "data": {
+                  "point": [0.0, 0.0, 0.0],
+                  "xaxis": [1.0, 0.0, 0.0],
+                  "yaxis": [0.0, 1.0, 0.0]
+                },
+                "guid": "cf936604-b8ab-4cd5-8c0d-531b4681ac35"
+              },
+              "attached_to_link": null,
+              "attached_to_tool": null,
+              "touch_links": [],
+              "touch_bodies": [],
+              "attachment_frame": null,
+              "is_hidden": false
+            },
+            "guid": "37339565-04fd-4da3-b168-c321e18ff078"
+          },
+          "box_right": {
+            "dtype": "compas_fab.robots/RigidBodyState",
+            "data": {
+              "frame": {
+                "dtype": "compas.geometry/Frame",
+                "data": {
+                  "point": [0.0, 0.0, 0.0],
+                  "xaxis": [1.0, 0.0, 0.0],
+                  "yaxis": [0.0, 1.0, 0.0]
+                },
+                "guid": "309866bb-9f3a-4137-90b7-f669efd47741"
+              },
+              "attached_to_link": null,
+              "attached_to_tool": null,
+              "touch_links": [],
+              "touch_bodies": [],
+              "attachment_frame": null,
+              "is_hidden": false
+            },
+            "guid": "b76046f5-9bbc-457e-b7db-74c5b799fa9d"
+          },
+          "box_front": {
+            "dtype": "compas_fab.robots/RigidBodyState",
+            "data": {
+              "frame": {
+                "dtype": "compas.geometry/Frame",
+                "data": {
+                  "point": [0.0, 0.0, 0.0],
+                  "xaxis": [1.0, 0.0, 0.0],
+                  "yaxis": [0.0, 1.0, 0.0]
+                },
+                "guid": "34a1abda-97de-4e18-8f92-cf2c890a3203"
+              },
+              "attached_to_link": null,
+              "attached_to_tool": null,
+              "touch_links": [],
+              "touch_bodies": [],
+              "attachment_frame": null,
+              "is_hidden": false
+            },
+            "guid": "1ec177e7-ce20-472e-afd8-fac50f847549"
+          },
+          "box_back": {
+            "dtype": "compas_fab.robots/RigidBodyState",
+            "data": {
+              "frame": {
+                "dtype": "compas.geometry/Frame",
+                "data": {
+                  "point": [0.0, 0.0, 0.0],
+                  "xaxis": [1.0, 0.0, 0.0],
+                  "yaxis": [0.0, 1.0, 0.0]
+                },
+                "guid": "eac86eb1-6cfe-462d-aa2c-cca1412c5951"
+              },
+              "attached_to_link": null,
+              "attached_to_tool": null,
+              "touch_links": [],
+              "touch_bodies": [],
+              "attachment_frame": null,
+              "is_hidden": false
+            },
+            "guid": "4aa55b05-987f-4142-85c6-dd40a44e66c9"
+          }
+        }
+      },
+      "guid": "49652f61-9055-465c-9342-89b079bc36ca"
+    },
+    "tasks": [
+      {
+        "dtype": "npp2.tasks/ExtruderOff",
+        "data": { "tag": "Extruder Off" },
+        "guid": "b9f8b5bc-c338-4f1d-880f-e1424456207e"
+      },
+      {
+        "dtype": "npp2.tasks/RoboticLinearMovement",
+        "data": {
+          "target": {
+            "dtype": "compas_fab.robots/PointAxisWaypoints",
+            "data": {
+              "target_points_and_axes": [
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [1.141466244844537, -0.24661489422543897, 0.46],
+                    "guid": "664b821e-8956-405c-b2f2-3c21c2da3dd4"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "f3b46660-d74e-454c-a95c-8bea303a41cf"
+                  }
+                ]
+              ],
+              "target_mode": "TOOL",
+              "native_scale": 1.0,
+              "tolerance_position": null,
+              "tolerance_orientation": null,
+              "name": "Point-Axis Waypoints"
+            },
+            "name": "Point-Axis Waypoints",
+            "guid": "8ee48156-9594-497c-a24a-891bbb1d35a6"
+          },
+          "speed_type": "40",
+          "trajectory": {
+            "dtype": "compas_fab.robots/JointTrajectory",
+            "data": {
+              "points": [
+                {
+                  "joint_values": [
+                    -0.010718340954792117, 0.15399796708507485,
+                    0.3038511586730659, -0.023716208749841598,
+                    -0.45796617525990096, 0.02123576340720091
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.020365743465136883, 0.15817496322686245,
+                    0.30751360579392106, -0.04279650354472888,
+                    -0.46609007726919083, 0.03808909987232277
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.030786811548579825, 0.16251733309879696,
+                    0.3109118492507814, -0.06298366033641294,
+                    -0.4742871210125237, 0.055898189001657446
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.0412150675848371, 0.16702527592672745,
+                    0.31405768799360295, -0.08272752708139473,
+                    -0.4825536771601367, 0.07317896883813159
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.05156093105719113, 0.17169737853123415,
+                    0.31696247847600884, -0.10186247497051021,
+                    -0.49088949494993656, 0.08977619424357546
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.06181347591335614, 0.1765314881732878,
+                    0.3196329218882364, -0.12038312776035058,
+                    -0.4992893757731953, 0.1056882085812242
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.0719706452844004, 0.18152524450544852,
+                    0.3220744746498728, -0.13830249154243934,
+                    -0.5077468492205018, 0.12093090267754206
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.08203159606561675, 0.18667619245527575,
+                    0.32429206873587163, -0.1556364082307348,
+                    -0.5162550352420792, 0.13552281847097122
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.09199588278222018, 0.19198180826665018,
+                    0.326290225790153, -0.1724018206136764, -0.5248068371499526,
+                    0.14948348558016322
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.10186334890996934, 0.1974395122340289,
+                    0.3280730796689019, -0.18861646770050977,
+                    -0.5333950249709387, 0.16283312707442732
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.11163408538570321, 0.203046678895016, 0.3296443904135722,
+                    -0.20429870099091843, -0.5420122979140566,
+                    0.1755924836500079
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.12130839675500872, 0.20880064638023593,
+                    0.33100755994347814, -0.2194673204278191,
+                    -0.5506513392178681, 0.1877826575039726
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.13088676947472458, 0.2146987249546782,
+                    0.33216565005346654, -0.23414141756577647,
+                    -0.559304864214244, 0.19942496422456815
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.14036984360774282, 0.22073820496954683,
+                    0.3331214018660456, -0.24834023679021178,
+                    -0.5679656627139219, 0.21054080194233038
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.14975838572129097, 0.22691636374787033,
+                    0.3338772567253648, -0.2620830392017728,
+                    -0.5766266341799654, 0.22115152475136352
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.15905326466368017, 0.23323047180958742,
+                    0.33443537773591914, -0.27538898315156324,
+                    -0.5852808175151456, 0.23127833216089833
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.1682554306233502, 0.23967779848717005, 0.334797671211864,
+                    -0.28827702252826387, -0.5939214157698764,
+                    0.24094217545624683
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.1773658953828761, 0.2462556165598389, 0.3349658083607627,
+                    -0.3007658100145975, -0.6025418148046716, 0.2501636701915421
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.18638571730088843, 0.25296120688623136,
+                    0.33494124558586097, -0.3128736294631328,
+                    -0.6111355995308463, 0.25896303462868
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.19531598705533487, 0.2597918620906391,
+                    0.33472524442474116, -0.32461832991746004,
+                    -0.6196965647290081, 0.2673600312300616
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2041578150963219, 0.2667448897375014,
+                    0.33431889074328447, -0.3360172700437283,
+                    -0.628218722348566, 0.2753739182823521
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.21291232134062185, 0.2738176151999952,
+                    0.3337231127461494, -0.3470872760046899,
+                    -0.6366963062029467, 0.28302341398486264
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.22158062844536272, 0.28100738474813197,
+                    0.3329386968163787, -0.3578446208374831,
+                    -0.6451237758157204, 0.2903266792384127
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.23016385474522555, 0.28831156781688, 0.3319663028441442,
+                    -0.36830499983755843, -0.6534958163503131,
+                    0.2973012982158918
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.23866310779049044, 0.29572755892424335,
+                    0.33080647881972064, -0.3784835105918088,
+                    -0.6618073365578189, 0.30396426364898
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2470794831241425, 0.30325278069956135,
+                    0.32945967189987807, -0.38839466471800427,
+                    -0.6700534692230022, 0.3103319882010239
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2554140571331111, 0.3108846845364633,
+                    0.32792624200554094, -0.3980523616624237,
+                    -0.6782295635632573, 0.31642028629726804
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.26366788760707066, 0.3186207535096374,
+                    0.32620647057505037, -0.4074699116417958,
+                    -0.6863311842108829, 0.3222443954358786
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2718420118607976, 0.3264585041058785,
+                    0.32430056969251453, -0.4166600412733215,
+                    -0.6943541058278602, 0.327818984143483
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.27993744478801175, 0.33439548774697836,
+                    0.3222086907391354, -0.42563489950661004,
+                    -0.7022943069886546, 0.33315816045296653
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.28795517833750983, 0.3424292926157666,
+                    0.31993093151969687, -0.43440607205259313,
+                    -0.7101479647572093, 0.3382754872472373
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.28795517833750983, 0.3424292926157666,
+                    0.31993093151969687, -0.43440607205259313,
+                    -0.7101479647572093, 0.3382754872472373
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                }
+              ],
+              "joint_names": [
+                "joint_1",
+                "joint_2",
+                "joint_3",
+                "joint_4",
+                "joint_5",
+                "joint_6"
+              ],
+              "start_configuration": {
+                "joint_values": [
+                  0.06430908919384733, 0.3261720242797937, 0.35028495731958664,
+                  0.11044743655886873, -0.679459495810529, -0.08604279501200736
+                ],
+                "joint_types": [0, 0, 0, 0, 0, 0],
+                "joint_names": [
+                  "joint_1",
+                  "joint_2",
+                  "joint_3",
+                  "joint_4",
+                  "joint_5",
+                  "joint_6"
+                ]
+              },
+              "fraction": null,
+              "planning_time": -1,
+              "attributes": {}
+            },
+            "guid": "f76e8b9d-65c3-4912-a49d-c01d34243233"
+          },
+          "seed": null,
+          "task_id": "",
+          "execution_result": null,
+          "tag": "firstmove"
+        },
+        "guid": "6f177f96-ce17-43c2-9d7c-e22fe98c5ef7"
+      },
+      {
+        "dtype": "npp2.tasks/RoboticLinearMovement",
+        "data": {
+          "target": {
+            "dtype": "compas_fab.robots/PointAxisWaypoints",
+            "data": {
+              "target_points_and_axes": [
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.141466244844537, -0.24661489422543897,
+                      0.34856057852202926
+                    ],
+                    "guid": "f12d4e00-815d-46a8-af48-f09a9362e96d"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "b0392fd1-7f3a-4e45-9143-cf69af744525"
+                  }
+                ]
+              ],
+              "target_mode": "TOOL",
+              "native_scale": 1.0,
+              "tolerance_position": null,
+              "tolerance_orientation": null,
+              "name": "Point-Axis Waypoints"
+            },
+            "name": "Point-Axis Waypoints",
+            "guid": "f6938e1c-dc00-44a6-9106-b514e03b5f87"
+          },
+          "speed_type": "40",
+          "trajectory": {
+            "dtype": "compas_fab.robots/JointTrajectory",
+            "data": {
+              "points": [
+                {
+                  "joint_values": [
+                    -0.2873197480483393, 0.3487059871394513, 0.3276710772864471,
+                    -0.42689175054402567, -0.7226633123107306, 0.328789433357304
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2866154245684363, 0.35516353415642204,
+                    0.3353342977907984, -0.4194844279782532,
+                    -0.7353361131775894, 0.31940138348677827
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2859299345342303, 0.36179474294033953,
+                    0.34278621008950133, -0.4123842734661232,
+                    -0.748025280415941, 0.31032151616763987
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2852644079069812, 0.3685982543046195, 0.3500258028950642,
+                    -0.4055804733882472, -0.7607256758227332, 0.3015385317631795
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2846298392678643, 0.3755734706028083,
+                    0.35703957455727725, -0.3990930027067576,
+                    -0.7734238800642007, 0.29306852743725165
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2840163420716748, 0.3827191431079798, 0.3638418408767763,
+                    -0.3928879896533265, -0.7861297359315319, 0.2848761187325995
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.28340879705932415, 0.3900328199889305,
+                    0.37045279100658257, -0.3869116691053952,
+                    -0.7988547029702766, 0.2769109807466705
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.282830741217057, 0.397513749968129, 0.37683968494702497,
+                    -0.381212538175721, -0.8115665446681576, 0.2692182389437656
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.282257205412606, 0.4051594812028527, 0.38303768753388134,
+                    -0.37571892663399453, -0.8242923758905979,
+                    0.26172909165235575
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2817121087530809, 0.4129692463826709,
+                    0.38901217419820405, -0.3704800710495872,
+                    -0.8369977628159261, 0.254489263784377
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2811698467989053, 0.4209404059347534, 0.3948004808943981,
+                    -0.36542551355091785, -0.8497127355321543,
+                    0.24743142394664433
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.280641213747018, 0.42907120148688016, 0.4003853623164686,
+                    -0.36056880746729614, -0.8624164476992755,
+                    0.24056992942211425
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.280641213747018, 0.42907120148688016, 0.4003853623164686,
+                    -0.36056880746729614, -0.8624164476992755,
+                    0.24056992942211425
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                }
+              ],
+              "joint_names": [
+                "joint_1",
+                "joint_2",
+                "joint_3",
+                "joint_4",
+                "joint_5",
+                "joint_6"
+              ],
+              "start_configuration": {
+                "joint_values": [
+                  0.06430908919384733, 0.3261720242797937, 0.35028495731958664,
+                  0.11044743655886873, -0.679459495810529, -0.08604279501200736
+                ],
+                "joint_types": [0, 0, 0, 0, 0, 0],
+                "joint_names": [
+                  "joint_1",
+                  "joint_2",
+                  "joint_3",
+                  "joint_4",
+                  "joint_5",
+                  "joint_6"
+                ]
+              },
+              "fraction": null,
+              "planning_time": -1,
+              "attributes": {}
+            },
+            "guid": "53f6aaba-662c-457a-bb3e-956b35034446"
+          },
+          "seed": null,
+          "task_id": "",
+          "execution_result": null,
+          "tag": "approach"
+        },
+        "guid": "616bae2b-bab4-47ae-a051-604b63bfe331"
+      },
+      {
+        "dtype": "npp2.tasks/ExtruderOn",
+        "data": { "tag": "Extruder On" },
+        "guid": "de252a09-7f79-400c-b468-7100c294d98a"
+      },
+      {
+        "dtype": "npp2.tasks/RoboticLinearMovement",
+        "data": {
+          "target": {
+            "dtype": "compas_fab.robots/PointAxisWaypoints",
+            "data": {
+              "target_points_and_axes": [
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.161266607456449, -0.23767360384462372,
+                      0.3480287429197143
+                    ],
+                    "guid": "c94fefbf-7e39-4363-9bbc-2f5b15ef2a9c"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "69a4e5f8-1feb-4400-acc3-2bc86e51aa86"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1616849475079114, -0.2366663985464575,
+                      0.3487806695063612
+                    ],
+                    "guid": "5c1ec5e9-e58e-4491-a699-35f314b28c65"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "e11fd9d4-af7c-427f-bdc0-e198abf573ef"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1502613212434234, -0.22671700949044543,
+                      0.3610929934519199
+                    ],
+                    "guid": "050f8da1-876e-4856-9f77-56733a8bc41c"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "238cf885-d396-4dab-b36a-296ffae7e438"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1506973982261917, -0.2255150200604215,
+                      0.3616476594126218
+                    ],
+                    "guid": "6924596c-1a44-4ba1-beaf-51f835765c04"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "624e13bd-cc6d-4d05-8df8-bcec2f96fd4e"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.17399857564894, -0.21426128007795292, 0.3557714634015807
+                    ],
+                    "guid": "4e34f965-bb74-4310-b3bb-09c0467b2b45"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "d76d0b58-334e-46dc-88be-145ff46efe47"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1741823380856469, -0.2128531153635445, 0.356078051568989
+                    ],
+                    "guid": "32f6b1df-8bf1-49ce-a054-6bc27e2a787b"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "e4203674-b0e4-44a9-9079-253686614398"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1489810131904392, -0.1975600426518041,
+                      0.37016989228138586
+                    ],
+                    "guid": "6c35b4f9-deba-493b-8901-7b44d1736e94"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "465cd28b-7bf1-4756-bb17-1c2db665a5e6"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1488626479181845, -0.19619054625825189,
+                      0.3702021660356901
+                    ],
+                    "guid": "776c997a-9b9a-4839-8944-7f06a1da0ed7"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "5fa12631-a532-41b2-8231-d097e48ecafb"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1683740780538925, -0.17866197047791937,
+                      0.35894881681276314
+                    ],
+                    "guid": "fb9e58b6-d4aa-40dc-b37a-972fe1341a12"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "fcfab545-9623-4c4b-8072-3417af030751"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1682470198748407, -0.17733707150260397,
+                      0.3588414374526506
+                    ],
+                    "guid": "744a6904-8b18-41c3-87e1-450b4be179c5"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "2ed444b7-dff1-4b4b-8c0f-8fe2920ec808"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.137537602460903, -0.15659479819307937,
+                      0.3712515644669785
+                    ],
+                    "guid": "d38ca01c-bb4f-4822-929d-c15f776d6098"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "807d7b42-178e-48d2-9f11-4fdbce41391f"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1373420696582612, -0.1552781444986276,
+                      0.3709396888628208
+                    ],
+                    "guid": "534c7767-0692-4fb0-a1fd-b08675e136df"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "e52725d0-e93c-442f-8a90-089e3c5de2a6"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.159609295939345, -0.13662520728112765,
+                      0.3510553344908425
+                    ],
+                    "guid": "7275554a-8634-4944-aba3-81ef750fa0b0"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "9c8e3c1f-8214-4ca2-af93-3d56c31d0ab7"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1595335407843879, -0.13544173576467716,
+                      0.3506524320088893
+                    ],
+                    "guid": "ddceb433-fa6d-46d0-a4d0-8072cce690dd"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "0c0ef739-36eb-4387-822f-3e5fe7f3fc9b"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1416670264572353, -0.11803203146081281,
+                      0.3542551539460136
+                    ],
+                    "guid": "b9a8458d-5c8b-4e5d-9811-8e0c1271f112"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "2bb49590-fec2-4802-a05c-675f17540def"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.141713462670369, -0.11677125689377116, 0.353807335866837
+                    ],
+                    "guid": "29edfb24-2977-4752-88a3-000350627806"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "4d80f80c-c2c0-4717-9dd5-db95322d2b5c"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1722623987762175, -0.10096191050261322,
+                      0.33191672920044474
+                    ],
+                    "guid": "e7912085-7197-4877-b09a-c491390a93a6"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "cad11f24-a26a-4a58-943b-78721aa824ec"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1724445475908511, -0.09974844925513399,
+                      0.3315597856642306
+                    ],
+                    "guid": "ae2e3b42-7a21-447a-bbb7-1883d19d13bb"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "dfe727b3-9220-40ef-a3b4-d16e21d1435a"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.161673599456063, -0.08460198050426487,
+                      0.3346981368412009
+                    ],
+                    "guid": "173a685d-10b6-4959-a540-8f89ddefd309"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "454ac6b9-7be7-489c-917e-16a50353a738"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1619251847899839, -0.08337805970179263,
+                      0.33450441438139306
+                    ],
+                    "guid": "d70f4b88-348a-49e2-8bca-7a0cc0eb55c4"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "623c3424-aef9-498b-9967-c73072175b81"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1914084650851147, -0.0680621021382109,
+                      0.32052706850395807
+                    ],
+                    "guid": "c0fba442-191f-471a-b739-5fbcd99d70dc"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "defaff3a-b8ca-40d3-bda0-66d4ae24e542"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1916742661429074, -0.0667770429907224,
+                      0.3204752981402899
+                    ],
+                    "guid": "42379bde-84a5-4d4a-9dfb-ffafff6fea46"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "2e17b085-6a2e-4c60-bd4b-d32c060f3500"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1777133108899054, -0.04872690605689667,
+                      0.3287130629992241
+                    ],
+                    "guid": "da34053d-fcf2-423d-ae1c-54b59e502526"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "14c1eb76-e8f5-4a8c-beb9-365fe3cc4ee4"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1777909112495573, -0.047617026546920016,
+                      0.3288261198641693
+                    ],
+                    "guid": "5fc5ca49-283e-47bb-ae64-3389c25b4d80"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "7fd89762-4332-416d-9502-461ca9d9cd9e"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1948347281117562, -0.03057773692788124,
+                      0.32418305747167975
+                    ],
+                    "guid": "2a33973d-9e44-4731-bd2a-97d4b440ebb6"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "b8a2ea3a-fc5d-4e02-919c-f11f68c6a4ac"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1950320790653157, -0.02666602366889026,
+                      0.3251176585354074
+                    ],
+                    "guid": "0383be0d-8955-4b87-b61b-40c8bf694527"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "7754eb7d-6e34-40dc-95a4-e03e1bf5477d"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1766555886505647, -0.008886197020884667,
+                      0.3410125599682021
+                    ],
+                    "guid": "bc2a03f7-90c2-4faf-bf90-ee21c3366354"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "8ad9b8ba-4965-4d31-9b34-42ebe32f7f3a"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.176428045976431, -0.005630878900865222,
+                      0.3421359535083458
+                    ],
+                    "guid": "7764eae5-c470-4180-a659-c769948b2524"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "d996f296-8cb2-4b3b-bbe9-b36399d29a42"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1850573402909188, 0.008956913056255456,
+                      0.34167417899161634
+                    ],
+                    "guid": "d7d028e0-c3f4-4a3e-9ee0-eb4a08272893"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "77361596-6e49-47b8-baee-8a16cc212a1b"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1846481996923213, 0.012328918967572822,
+                      0.3425774388328884
+                    ],
+                    "guid": "50152de1-051f-40b9-b09b-b58675df6a89"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "f112c1fc-9d70-47b3-8473-040e07948449"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1689623087822387, 0.025970047024141518,
+                      0.3521267056921694
+                    ],
+                    "guid": "2fa1ce37-da41-40df-8045-949d087ca8fe"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "9ba35e3e-45fc-4bd7-8447-98903f5513d1"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1680070435944427, 0.029862700058644442,
+                      0.3514033206120871
+                    ],
+                    "guid": "dbc4854f-f6f3-4270-b36f-c894d6e0f1f6"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "6942f9a1-f1d5-44e8-a8ee-d96b42c28cb3"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1738735229136539, 0.040095056854119626,
+                      0.34129680509422455
+                    ],
+                    "guid": "22479d03-d7fc-48af-bae9-f278703ba117"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "fadc56f8-1489-4d86-bc84-26b89782794c"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.173494075904391, 0.04227326618331073,
+                      0.33962677920098394
+                    ],
+                    "guid": "aa3980a0-10bc-400a-bc59-e9428165a2d1"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "4a9f29b0-ab6f-4eb1-b023-ae81a601ab27"
+                  }
+                ],
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [
+                      1.1634349448168173, 0.05361177313176135,
+                      0.33332358513345073
+                    ],
+                    "guid": "08407cdb-adfb-4905-b341-0446f0634916"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "367f5cd1-89d7-49d9-a25a-751033ce27ec"
+                  }
+                ]
+              ],
+              "target_mode": "TOOL",
+              "native_scale": 1.0,
+              "tolerance_position": null,
+              "tolerance_orientation": null,
+              "name": "Point-Axis Waypoints"
+            },
+            "name": "Point-Axis Waypoints",
+            "guid": "aed5c527-ac76-4eca-971f-6434061aba23"
+          },
+          "speed_type": "20,21,22,22,23,24,25,26,26,27,28,29,30,30,31,32,33,34,34,35,36,37,37,38,39,40,41,41,42,43,44,45,45,46,47",
+          "trajectory": {
+            "dtype": "compas_fab.robots/JointTrajectory",
+            "data": {
+              "points": [
+                {
+                  "joint_values": [
+                    -0.2755902216523797, 0.4355200130015572, 0.3906658171565202,
+                    -0.35512995803984093, -0.8581679213649197,
+                    0.23789763246140244
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.27055031144721975, 0.4420440079231113, 0.380798767976579,
+                    -0.34969126845168563, -0.8538660823163222,
+                    0.23519936940231875
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.26556801037969546, 0.4485971611063738,
+                    0.3708398841218238, -0.34430998611514807,
+                    -0.8495255142538477, 0.23252091487979903
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.26444841317743073, 0.4481382315883091,
+                    0.37014376260402165, -0.3432662849780744,
+                    -0.8481977665101815, 0.23212628006960082
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.26092336698622287, 0.43497558597515346,
+                    0.37906825878480926, -0.33999436805182426,
+                    -0.843390061129449, 0.23101795824569873
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2573673209684469, 0.42176196566193863,
+                    0.3879292459307291, -0.33669262511329684,
+                    -0.838480817371358, 0.22989344133539205
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.25601951861787386, 0.42138086390639257,
+                    0.3874888780733107, -0.33525203198577724,
+                    -0.8374139597828285, 0.22913729598188626
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.24984175271171175, 0.43067253498201424,
+                    0.37690279394685633, -0.3275871081543447,
+                    -0.8348102479969047, 0.22430872231281576
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.24376251150336317, 0.44000816692469663,
+                    0.36614708385353145, -0.3200498488824057,
+                    -0.8321378192681539, 0.2195751252128062
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.23778997060023221, 0.44935841679108074,
+                    0.35524761658943665, -0.312671664604043,
+                    -0.8293899488953116, 0.21495932395133968
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.23625126697496276, 0.44895936927602936,
+                    0.35532343535143834, -0.31079036202548005,
+                    -0.8287646678110913, 0.2137591394338091
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2337743808322641, 0.43782655851145225,
+                    0.3662400049161456, -0.3076181608199357,
+                    -0.8280442126760564, 0.2116601283568179
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2312749964362112, 0.42664785784762155,
+                    0.37707887560637765, -0.30444573568830385,
+                    -0.8272062945596873, 0.20958887495785172
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.22874046178683702, 0.4154500480708306, 0.387791903519422,
+                    -0.30126132378686615, -0.8262273669163762,
+                    0.20753838226083376
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.2261698853751286, 0.4042320189929797, 0.3983793473835755,
+                    -0.2980629227721523, -0.8251062475837981, 0.2055064164682911
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.22469929086107374, 0.40368476646576723,
+                    0.39919532892915477, -0.29609399732772723,
+                    -0.8250720057272234, 0.2041151940849138
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.21656634715337444, 0.4127734411261867,
+                    0.39265752308036284, -0.28464670083865223,
+                    -0.8259096291096405, 0.195817149808543
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.20851736049322495, 0.4219356722889288,
+                    0.38590316684732306, -0.2733603846762137,
+                    -0.8267019663211068, 0.18768103588123333
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.20058202751750276, 0.43115055990982426,
+                    0.378938241209646, -0.26229359361297117,
+                    -0.8274316164333172, 0.17975319502107154
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.19915872826492279, 0.43081105199805014,
+                    0.37971507943589594, -0.26036560367739486,
+                    -0.827611354621985, 0.17836478318634158
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.19510116962297602, 0.41820927137547803,
+                    0.39352626792946677, -0.2547228289312022,
+                    -0.8280799413011953, 0.17431752517903165
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.1909820197215818, 0.4055676490130505,
+                    0.40719395247534285, -0.24904446938600822,
+                    -0.8283761918827649, 0.17028947425677382
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.18678784283731517, 0.39290626700024067,
+                    0.42068920221462336, -0.24331158281042992,
+                    -0.8284910698748358, 0.1662641461666001
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.18251621473834276, 0.38022300359191136,
+                    0.4340130163253429, -0.23751844438400585,
+                    -0.828423182110436, 0.1622355893963262
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.1810477056663765, 0.379968613366895, 0.43503575438049447,
+                    -0.23545555752192915, -0.8289412334115186,
+                    0.16070957415468226
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.1744733474795052, 0.3897455948125206, 0.4300345401120594,
+                    -0.22574613351990938, -0.8325696837565221,
+                    0.1533591271263658
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.16796218915400746, 0.3995805599770819,
+                    0.4248406690495556, -0.21620805290204323,
+                    -0.836136499725466, 0.1461979847513993
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.16153044214339515, 0.4094524098507085,
+                    0.41947016662408526, -0.2068605220047418,
+                    -0.8396317786907739, 0.1392405690246821
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.155196574248972, 0.41935709090485224, 0.4139165441419646,
+                    -0.19774349264011484, -0.8430431918382808,
+                    0.13251563878390757
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.15386563696897435, 0.4194409137780597,
+                    0.4146085429340617, -0.1959111289357283,
+                    -0.8436376787968448, 0.13118121119856996
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.14828506110631082, 0.4105885063527619,
+                    0.42617279936913754, -0.18811642070515777,
+                    -0.845592432359124, 0.1256176850698328
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.14262440541638238, 0.4017375060249477,
+                    0.43763654136617136, -0.18025906047786017,
+                    -0.8474742078223114, 0.12005306878763622
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.13688038055503157, 0.3929039854921119,
+                    0.44897340526724566, -0.17233472247718018,
+                    -0.8492732209075123, 0.11448405703845602
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.13542576872700599, 0.3931497286039133,
+                    0.44950386330928754, -0.17036751349633028,
+                    -0.8498782483425376, 0.11308746806198833
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.1307963216159405, 0.40360147238897903,
+                    0.4421366641538093, -0.16386851720944814,
+                    -0.8524165152149833, 0.10841687291797099
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.12623070712469875, 0.41407546246358146,
+                    0.4345884758918293, -0.15750107371438324,
+                    -0.8548273949404809, 0.10387803697826728
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.12175041099539048, 0.4245410495222327,
+                    0.4269063578929685, -0.15130691791956757,
+                    -0.8571283881623882, 0.09949805908892059
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.11731553812691144, 0.43501261226457383,
+                    0.419082831574598, -0.14521038515793724,
+                    -0.8593231517819152, 0.09521531799911614
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.11294167958958584, 0.4454821593805103,
+                    0.41112300084243253, -0.13922998111065052,
+                    -0.8614070515733699, 0.0910444899423392
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.11157505971248534, 0.44588891807980935,
+                    0.4111866121209348, -0.13745777024583833,
+                    -0.8617519557361167, 0.08984290096031257
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.10369248539919372, 0.43749017413264574,
+                    0.42162370649830283, -0.12695378446165118,
+                    -0.8630984331747886, 0.08280254599435867
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.09571130874782659, 0.4291183860175289,
+                    0.43192349372421807, -0.11635665297266087,
+                    -0.8643850499314975, 0.07574081018336457
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.09431495398199582, 0.42942815432314674,
+                    0.43183962653978925, -0.11458008789766416,
+                    -0.8645101610680865, 0.07457007598299537
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.08921919355279762, 0.44051772544032514,
+                    0.4212041400312023, -0.10793097140065658,
+                    -0.8646019360495819, 0.07021589425699562
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.08420192574873608, 0.45163407662547567,
+                    0.41034701535320506, -0.10139977018004903,
+                    -0.8645233938957808, 0.06595593854140751
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.0792643505190454, 0.4627455891398069, 0.3993356427523372,
+                    -0.09498229873761979, -0.8643123746551963,
+                    0.06178230746335303
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.0744045341967114, 0.4738528524072677, 0.3881706524445864,
+                    -0.08867395386777908, -0.8639688236801123,
+                    0.05768973106929214
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.07298498857465083, 0.4741255274993018,
+                    0.3878184302412246, -0.08688767089767778,
+                    -0.8638075895056241, 0.056536486656277585
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.06670662645554537, 0.46595575449068316,
+                    0.3957562714207145, -0.07873457835424486,
+                    -0.863237491966049, 0.05125494851266698
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.060353007822777825, 0.4577817338148595,
+                    0.40363152925591933, -0.07048033529278264,
+                    -0.8626346306818107, 0.0459052451467036
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.05390692184091516, 0.44962990160918015,
+                    0.4113898788131397, -0.06208421731092628,
+                    -0.8619684001517826, 0.04045769079084579
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.05267188755561837, 0.44952723716928644,
+                    0.41134586589714395, -0.060531053086807375,
+                    -0.8617771189643977, 0.039454005127173494
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.04602207933004559, 0.45698722080323206,
+                    0.4024032602657976, -0.05191745715287381,
+                    -0.860057890351931, 0.0339058072282345
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.039437579170562564, 0.4645035710667804,
+                    0.39328610420911686, -0.04336882659225293,
+                    -0.8582565856824219, 0.028380464163218357
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.032929116296619876, 0.47205380569929,
+                    0.38403885575072017, -0.03489680316631377,
+                    -0.8563963882994555, 0.022885880848360053
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.028606982593127318, 0.4713079411903265,
+                    0.3833999186623775, -0.029281106656219025,
+                    -0.8549203009869385, 0.019235613884953037
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.023839801766564247, 0.4624142809781823,
+                    0.3900130508202178, -0.023089451320349685,
+                    -0.8525569999506867, 0.015214113415994832
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.019013927626975097, 0.4535030978157573,
+                    0.39657025731540957, -0.01679872651000595,
+                    -0.8501414517420907, 0.011104741113027183
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.01411246800575392, 0.4445977220817425,
+                    0.4030234536227579, -0.010364647580082254,
+                    -0.8476472839863192, 0.006874059215654492
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.009172625549239265, 0.4357102121048314,
+                    0.4093465536076476, -0.0038542271311558527,
+                    -0.8450604632357759, 0.0025737080519180134
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    -0.00550101152562785, 0.4343859121526254,
+                    0.4092371112446567, 0.0009867109089387426,
+                    -0.8436249856660412, -0.00064042780233664
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.0027381653225576124, 0.4394838719472666,
+                    0.4015833922370781, 0.01197043421312074,
+                    -0.8411059581110079, -0.007964146872633476
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.010906668376352622, 0.4446646763921494,
+                    0.39375761754162497, 0.022909507524040855,
+                    -0.8385566178999764, -0.015301210300994789
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.014687666164985961, 0.4434538637694678,
+                    0.3938995931533602, 0.027946281711851664,
+                    -0.837550404612186, -0.018690333437902537
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.019897140991767766, 0.43474546642197137,
+                    0.4014700625608288, 0.03491405132578495,
+                    -0.8365194117450452, -0.023382217373675986
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.025170259125985212, 0.42602789490356113,
+                    0.40896894178187826, 0.04198060541389136,
+                    -0.8354367297680967, -0.02815418807385529
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.030506499282852376, 0.41732248730725036,
+                    0.41635031675909384, 0.04914770275185128,
+                    -0.8342762165710305, -0.03300942949758419
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.03495987823310643, 0.4170085153854859,
+                    0.41823754859940876, 0.05498811025477286,
+                    -0.8359996539050268, -0.03686693184261343
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.0406231210015613, 0.4251334321638343, 0.41540826555349797,
+                    0.062236686099678085, -0.8415048555588056,
+                    -0.04148276151980578
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.04623602015506337, 0.4333182702693242,
+                    0.41242306200193796, 0.06935965578578977,
+                    -0.846936602945706, -0.04596012788458259
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.04868993190563582, 0.43454662862732435,
+                    0.4137530547850182, 0.0723974226618338, -0.8495973577842175,
+                    -0.04783409097924956
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.055330377782432806, 0.432105297620809,
+                    0.42386538806382795, 0.08061248819718073,
+                    -0.857575497577741, -0.052791163936264665
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06203476301645469, 0.42974784859186443,
+                    0.43389183670489645, 0.08880739085423443,
+                    -0.8655845636707776, -0.057636371340239884
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06203476301645469, 0.42974784859186443,
+                    0.43389183670489645, 0.08880739085423443,
+                    -0.8655845636707776, -0.057636371340239884
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                }
+              ],
+              "joint_names": [
+                "joint_1",
+                "joint_2",
+                "joint_3",
+                "joint_4",
+                "joint_5",
+                "joint_6"
+              ],
+              "start_configuration": {
+                "joint_values": [
+                  0.06430908919384733, 0.3261720242797937, 0.35028495731958664,
+                  0.11044743655886873, -0.679459495810529, -0.08604279501200736
+                ],
+                "joint_types": [0, 0, 0, 0, 0, 0],
+                "joint_names": [
+                  "joint_1",
+                  "joint_2",
+                  "joint_3",
+                  "joint_4",
+                  "joint_5",
+                  "joint_6"
+                ]
+              },
+              "fraction": null,
+              "planning_time": -1,
+              "attributes": {}
+            },
+            "guid": "16ccead3-9de3-407c-999d-d71a2c55eff6"
+          },
+          "seed": null,
+          "task_id": "",
+          "execution_result": null,
+          "tag": "print"
+        },
+        "guid": "77646752-85fd-41f1-988f-b5fa13c0fa14"
+      },
+      {
+        "dtype": "npp2.tasks/ExtruderOff",
+        "data": { "tag": "Extruder Off" },
+        "guid": "e90abd7d-4e65-499d-b6ca-a9770d426092"
+      },
+      {
+        "dtype": "npp2.tasks/RoboticLinearMovement",
+        "data": {
+          "target": {
+            "dtype": "compas_fab.robots/PointAxisWaypoints",
+            "data": {
+              "target_points_and_axes": [
+                [
+                  {
+                    "dtype": "compas.geometry/Point",
+                    "data": [1.1634349448168173, 0.05361177313176135, 0.46],
+                    "guid": "a246472b-0b72-4648-9668-51c284aaba30"
+                  },
+                  {
+                    "dtype": "compas.geometry/Vector",
+                    "data": [-0.0, -0.0, -1.0],
+                    "guid": "40bbe62c-7492-4eaf-a804-f8967da9ba8f"
+                  }
+                ]
+              ],
+              "target_mode": "TOOL",
+              "native_scale": 1.0,
+              "tolerance_position": null,
+              "tolerance_orientation": null,
+              "name": "Point-Axis Waypoints"
+            },
+            "name": "Point-Axis Waypoints",
+            "guid": "f1ae541e-feff-4271-a2e9-edae48a2ff87"
+          },
+          "speed_type": "40",
+          "trajectory": {
+            "dtype": "compas_fab.robots/JointTrajectory",
+            "data": {
+              "points": [
+                {
+                  "joint_values": [
+                    0.06215551379478659, 0.42072213581123724,
+                    0.4287740936049233, 0.09002246189323454,
+                    -0.8515250499274363, -0.05937897903788608
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06230498825172883, 0.41186260001245456,
+                    0.42337222849673406, 0.09133123991827775,
+                    -0.8373305177287624, -0.0612138705023687
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06245867221251326, 0.40317571115119955,
+                    0.4177616869761186, 0.09269699480312225,
+                    -0.8231019710336689, -0.06310528901695397
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06261603608864974, 0.39466318999964695,
+                    0.4119441251124822, 0.0941212851167214, -0.8088430419175308,
+                    -0.06505495465420393
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06277713954245673, 0.3863267818647158, 0.4059202070642766,
+                    0.09560663419464144, -0.7945562391584199,
+                    -0.06706550000049413
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.0629549855818398, 0.37817122613526016,
+                    0.39966418658959907, 0.09718921323464663,
+                    -0.7802165947483519, -0.06916783188873896
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06312837557380085, 0.3701926271739258, 0.3932276127683393,
+                    0.09882608402696114, -0.7658808886605306,
+                    -0.07132464289981053
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06330586253759597, 0.362394805118643, 0.3865866645347952,
+                    0.10053446815829063, -0.751524446897559,
+                    -0.07355298738929839
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06348777178351532, 0.35477916559025885,
+                    0.37974161376561566, 0.10231801971037845,
+                    -0.7371490332134546, -0.07585666539272971
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06368893874538264, 0.34735072106950693,
+                    0.3726712827561483, 0.10421994064911591,
+                    -0.7227364012593369, -0.07827315949968948
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06388540654833617, 0.34010386388051567,
+                    0.36541766773483486, 0.10619064639288878, -0.70832869474855,
+                    -0.08075931242787121
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06408667093607284, 0.3330427903940884,
+                    0.35796142902891004, 0.10825003513755058,
+                    -0.6939077009647133, -0.0833347178714463
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06430908919384733, 0.3261720242797937,
+                    0.35028495731958664, 0.11044743655886873,
+                    -0.679459495810529, -0.08604279501200736
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                },
+                {
+                  "joint_values": [
+                    0.06430908919384733, 0.3261720242797937,
+                    0.35028495731958664, 0.11044743655886873,
+                    -0.679459495810529, -0.08604279501200736
+                  ],
+                  "joint_types": [0, 0, 0, 0, 0, 0],
+                  "joint_names": [
+                    "joint_1",
+                    "joint_2",
+                    "joint_3",
+                    "joint_4",
+                    "joint_5",
+                    "joint_6"
+                  ],
+                  "velocities": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "accelerations": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "effort": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                  "time_from_start": { "secs": 0, "nsecs": 0 }
+                }
+              ],
+              "joint_names": [
+                "joint_1",
+                "joint_2",
+                "joint_3",
+                "joint_4",
+                "joint_5",
+                "joint_6"
+              ],
+              "start_configuration": {
+                "joint_values": [
+                  0.06430908919384733, 0.3261720242797937, 0.35028495731958664,
+                  0.11044743655886873, -0.679459495810529, -0.08604279501200736
+                ],
+                "joint_types": [0, 0, 0, 0, 0, 0],
+                "joint_names": [
+                  "joint_1",
+                  "joint_2",
+                  "joint_3",
+                  "joint_4",
+                  "joint_5",
+                  "joint_6"
+                ]
+              },
+              "fraction": null,
+              "planning_time": -1,
+              "attributes": {}
+            },
+            "guid": "1625974a-4637-4748-9d7d-29529277f939"
+          },
+          "seed": null,
+          "task_id": "",
+          "execution_result": null,
+          "tag": "retract"
+        },
+        "guid": "819e8296-a98b-4beb-9e88-0fcf95f3dcff"
+      }
+    ]
+  },
+  "guid": "591f81c9-63e8-48cc-b00b-d3f742e59956"
+}
